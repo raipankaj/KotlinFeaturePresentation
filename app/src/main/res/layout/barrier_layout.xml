@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guide"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintGuide_percent="0.5"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:id="@+id/tvFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/guide"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Hello how are you, hope you are good?"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/tvSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello how are you, hope you are good?"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/guide"
+        android:padding="8dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@+id/tvFirst"/>
+
+    <View
+        android:layout_width="1dp"
+        app:layout_constraintRight_toRightOf="@+id/guide"
+        android:layout_height="match_parent"
+        android:background="#FFAABD"/>
+
+
+
+</android.support.constraint.ConstraintLayout>
