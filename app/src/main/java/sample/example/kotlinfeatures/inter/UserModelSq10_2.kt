@@ -1,4 +1,4 @@
-package sample.example.kotlinfeatures.inital
+package sample.example.kotlinfeatures.inter
 
 class UserModelSq10_2 {
     val place: String = ""

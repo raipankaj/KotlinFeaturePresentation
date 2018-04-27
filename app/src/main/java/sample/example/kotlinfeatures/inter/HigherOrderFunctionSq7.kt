@@ -1,4 +1,4 @@
-package sample.example.kotlinfeatures.inital
+package sample.example.kotlinfeatures.inter
 
 /**
  * An higher order function which accepts any function as a parameter
@@ -17,5 +17,3 @@ fun higherOrderExample2(param: String, funcName: () -> Unit) {
 inline fun higherOrderExample3(value: Int, crossinline func: Int.() -> String) {
     value.func().plus("It's an example").also(::print)
 }
-
-//higherOrderExample3(5) {"Hey"}

@@ -1,4 +1,4 @@
-package sample.example.kotlinfeatures.inital;
+package sample.example.kotlinfeatures.inter;
 
 public class UserModelSq10_1 {
 

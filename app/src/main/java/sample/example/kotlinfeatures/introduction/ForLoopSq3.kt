@@ -15,7 +15,7 @@ class ForLoopSq3 {
      * For loop in decreasing order from 100 to 1 as downTo is 1
      */
     fun forLoopWithDecrement() {
-        for (counter in 100 downTo 1) {
+        for (counter in 100 downTo 0) {
             print(counter)
         }
     }

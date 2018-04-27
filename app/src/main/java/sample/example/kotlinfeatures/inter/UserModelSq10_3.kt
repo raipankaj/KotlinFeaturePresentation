@@ -1,4 +1,4 @@
-package sample.example.kotlinfeatures.inital
+package sample.example.kotlinfeatures.inter
 
 data class UserModel2(val place:String, val shop: String, val zipcode:Int)
 
